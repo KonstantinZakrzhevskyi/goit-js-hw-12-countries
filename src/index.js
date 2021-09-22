@@ -1,11 +1,12 @@
 
-console.log('ygyyuguh');
 const BASE_URL = 'https://restcountries.eu/rest/v2/name';
-console.log(BASE_URL);
 
-function fetchCountries(searchQuery) {
-    const params = `${searchQuery}`
-    return fetch(BASE_URL + params).then(response => response.json());
-}
-  
-console.log(fetchCountries());
+const r = fetch('https://restcountries.eu/rest/v2/name');
+console.log(r);
+
+
+
+// const URL = 'https://pokeapi.co/api/v2';
+
+// const r = fetch('https://pokeapi.co/api/v2')
+// console.log(r);
