@@ -12,12 +12,17 @@
     />
   </head>
   <body>
-    <h2>Введиде название страны</h2>
     <div class="countries">
-      <input class="countries__input js-input" type="text" name="query" autocomplete="off" />
+      <h2 class="countries__title">Поиск страны</h2>
+      <input
+        class="countries__input js-input"
+        type="text"
+        name="query"
+        placeholder="Введите назнагие страны"
+        autocomplete="off"
+      />
 
-      <ul class="countries__list js-countries-list"></ul>
-      <div class="country__card"></div>
+      <div class="country js-country"></div>
     </div>
 
     <script src="./index.js"></script>
