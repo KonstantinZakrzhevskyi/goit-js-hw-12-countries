@@ -39,9 +39,6 @@ ul {
 }
 
 .countries__input {
-  /* display: block;
-  margin-left: auto;
-  margin-right: auto; */
   width: 280px;
   height: 40px;
   margin-bottom: 40px;
@@ -57,7 +54,6 @@ ul {
 .card {
   display: flex;
   flex-direction: row-reverse;
-  /* margin-left: 300px; */
 }
 
 .card__title {
